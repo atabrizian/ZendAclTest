@@ -1,0 +1,23 @@
+{
+    "name": "zendAclTest",
+    "description": "zendAclTest",
+    "authors": [
+        {
+            "name": "Arash Tabriziyan",
+            "email": "a.tabriziyan@gmail.com"
+        }
+    ],
+    "version": "0.1.0",
+    "require-dev": {
+        "zendframework/zend-permissions-acl": "2.3.*@dev"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "zendAclTest": "src/"
+        }
+    },
+    "bin-dir": "bin"
+}
